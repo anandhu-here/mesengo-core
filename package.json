@@ -1,0 +1,23 @@
+{
+  "name": "mesengo-core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+
+  "scripts": {
+    "dev":"nodemon server"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.15",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.1.2",
+    "validator": "^13.6.0"
+  }
+}
